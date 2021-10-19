@@ -1,15 +1,27 @@
 #lösche table falls exist
 
-CREATE DATABASE landerbase;
+CREATE DATABASE laenderbase;
 SHOW DATABASES;
-CREATE TABLE listelaender;
+
+USE laenderbase;
+
+CREATE TABLE listelaender
+(
+geoname VARCHAR(100),
+officialname VARCHAR (100),
+capitalcity VARCHAR (100),
+largestcity VARCHAR (100)
+);
 #zeige table liste
 
+SHOW TABLES;
+DECRIBE listelaender;
 
 
-
-
+INSERT INTO 
 
 
 
 #
+
+
