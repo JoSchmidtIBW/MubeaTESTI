@@ -1,0 +1,15 @@
+#lösche table falls exist
+
+CREATE DATABASE landerbase;
+SHOW DATABASES;
+CREATE TABLE listelaender;
+#zeige table liste
+
+
+
+
+
+
+
+
+#
